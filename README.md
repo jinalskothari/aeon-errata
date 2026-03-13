@@ -8,9 +8,12 @@ Reports are filed in batches as chapters are read, one file per chapter range:
 
 ```
 errata.md              ← master index (start here)
+errata-overall.md      ← book-wide issues not tied to a specific chapter
 errata-ch04-ch06.md    ← issues found in Chapters 4–6
 errata-chXX-chYY.md    ← future batches follow the same pattern
 ```
+
+Book-wide issues (e.g. Surrealist block scoping, UI bugs) go into `errata-overall.md` and are updated continuously as new ones are found, regardless of which chapter prompted them.
 
 **[→ View the full index](errata.md)**
 
